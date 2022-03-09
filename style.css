@@ -3,6 +3,33 @@
 	padding-left: 20px;
 }
 
+.topo{
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
 .baner {
 	width:100%;
 }
