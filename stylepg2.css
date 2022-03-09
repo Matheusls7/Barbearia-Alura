@@ -24,3 +24,32 @@ nav a{
     font-size: 1.2em;
     text-decoration: none;
 }
+
+
+.preco{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+.descricaoproduto{
+    font-size: 1em;
+}
+.listaproduto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.listaproduto li{
+    display: inline-block;
+    text-align: center;
+    width:  30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.listaproduto h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
